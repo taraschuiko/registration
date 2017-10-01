@@ -1,0 +1,135 @@
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+body {
+	background: url(../img/bg.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+a {
+	color: #ea355a;
+	text-decoration: none;
+}
+
+fieldset {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+input {
+	border: none;
+	border-radius: 4px;
+	background-color: #f0f0f0;
+	outline: none;
+	padding: 15px;
+	font-family: Arial;
+	font-size: 14px;
+	text-align: left;
+	color: #7a7b7f;
+}
+
+.register-form {
+	width: 40%;
+	min-width: 100px;
+	max-width: 400px;
+	padding: 26px 30px;
+	border-radius: 4px;
+	background-color: #ffffff;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+	/*Centering*/
+	margin: 0;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-header__key {
+	float: left;
+}
+
+.title {
+	font-family: Arial;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 0.83;
+	text-align: left;
+	color: #1b1c1d;
+	float: left;
+	margin: 0;
+	margin-left: 10px;
+	margin-bottom: 16px;
+}
+
+.subtitle {
+	font-family: Arial;
+	font-size: 13px;
+	line-height: 1.54;
+	text-align: left;
+	color: #7a7b7f;
+	clear: both;
+}
+
+.form-body__name {
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+
+.form-name__input {
+	width: calc(50% - 8px);
+}
+
+.form-name__input:first-child {
+	margin-right: 12px;
+}
+
+.input-email, .input-password {
+	width: 100%;
+	margin-top: 15px;
+}
+
+.submit-button {
+	width: 100%;
+	border: none;
+	border-radius: 4px;
+	background-color: #ea355a;
+	box-shadow: 0 4px 0 0 #bd1962;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.11;
+	text-align: center;
+	color: #ffffff;
+	padding: 17px 0;
+	margin-top: 15px;
+}
+
+.submit-button:hover {
+	text-decoration: underline;
+}
+
+.description {
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 1.67;
+	text-align: left;
+	color: #7a7b7f;
+}
+
+
+
+
