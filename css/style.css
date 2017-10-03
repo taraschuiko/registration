@@ -19,6 +19,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 fieldset {
 	border: none;
 	padding: 0;
